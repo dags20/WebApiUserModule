@@ -9,6 +9,9 @@ namespace WebApi.UserModulo.Controllers
 {
     public class AccountabilityController : ApiController
     {
-
+        public string GetAllUser()
+        {
+            return "Ok";
+        }
     }
 }
