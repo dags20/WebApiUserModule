@@ -3,14 +3,14 @@ using System.IO;
 using System.Linq;
 using NHibernate.AspNet.Identity;
 using NHibernate.AspNet.Identity.Helpers;
-using WebApi.UserModulo.Models;
+using WebApi.UserModule.Models;
 using NHibernate.Cfg;
 using NHibernate;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Tool.hbm2ddl;
 using System.Collections.Generic;
 
-namespace WebApi.UserModulo
+namespace WebApi.UserModule
 {
     public class NhibernateHelper
     {

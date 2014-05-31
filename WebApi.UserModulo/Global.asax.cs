@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace WebApi.UserModulo
+namespace WebApi.UserModule
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

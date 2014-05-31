@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using NHibernate.AspNet.Identity;
 
-namespace WebApi.UserModulo.Models
+namespace WebApi.UserModule.Models
 {
     public class ApplicationUser : IdentityUser
     {
