@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NHibernate.AspNet.Identity.IdentityRole, NHibernate.AspNet.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="AspNetRoles">
+    <id name="Id" type="String">
+      <generator class="uuid.hex">
+        <param name="format">D</param>
+      </generator>
+    </id>
+    <property name="Name" />
+    <bag name="Users" table="AspNetUserRoles">
+      <key column="RoleId" />
+      <many-to-many class="NHibernate.AspNet.Identity.IdentityUser, NHibernate.AspNet.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" column="UserId" />
+    </bag>
+  </class>
+</hibernate-mapping>

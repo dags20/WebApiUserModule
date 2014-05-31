@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="NHibernate.AspNet.Identity.IdentityUserClaim, NHibernate.AspNet.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" table="AspNetUserClaims">
+    <id name="Id" type="Int32">
+      <generator class="identity" />
+    </id>
+    <property name="ClaimType" />
+    <property name="ClaimValue" />
+    <many-to-one name="User" column="User_Id" />
+  </class>
+  <joined-subclass name="WebApi.UserModule.Models.ApplicationUser, WebApi.UserModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" extends="NHibernate.AspNet.Identity.IdentityUser, NHibernate.AspNet.Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <key column="applicationuser_key" />
+  </joined-subclass>
+</hibernate-mapping>
