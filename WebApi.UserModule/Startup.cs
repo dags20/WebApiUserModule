@@ -10,12 +10,6 @@ namespace WebApi.UserModule
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);            
-        }
-
-        //private static void ConfigureData()
-        //{
-        //    var storage = new WebSessionStorage(System.Web.HttpContext.Current.ApplicationInstance);
-        //    DataConfig.Configure(storage);
-        //}
+        }        
     }
 }

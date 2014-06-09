@@ -31,7 +31,6 @@ C:\Users\Diego\git\WebApiUserModulo\WebApi.UserModulo\bin\System.Web.Http.WebHos
 C:\Users\Diego\git\WebApiUserModulo\WebApi.UserModulo\obj\Debug\WebApi.UserModule.dll
 C:\Users\Diego\git\WebApiUserModulo\WebApi.UserModulo\obj\Debug\WebApi.UserModule.pdb
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\hibernate.cfg.xml
-C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\WebApi.UserModule.dll.config
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\WebApi.UserModule.dll
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\WebApi.UserModule.pdb
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\Iesi.Collections.dll
