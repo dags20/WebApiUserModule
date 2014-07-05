@@ -61,6 +61,6 @@ C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\Newtonsoft.Json.xml
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Net.Http.Formatting.xml
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Web.Http.xml
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Web.Http.WebHost.xml
+C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.csprojResolveAssemblyReference.cache
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.dll
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.pdb
-C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.csprojResolveAssemblyReference.cache

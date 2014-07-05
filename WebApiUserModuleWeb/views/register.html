@@ -1,0 +1,43 @@
+﻿<div ng-controller="register">   
+    <div class="well bs-component">
+        <form class="form-horizontal" name="registrationForm" ng-submit="submitForm(registrationForm.$valid)" novalidate>
+            <fieldset>
+                <legend>Registration</legend>
+                <div class="form-group" ng-class="{'has-error' : registrationForm.name.$invalid && submitted}">
+                    <label for="name" class="col-lg-2 control-label">Name</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" ng-model="name" required>
+                        <p ng-show="registrationForm.name.$invalid && submitted" class="help-block">Your name is required.</p>
+                    </div>                    
+                </div>
+                <div class="form-group" ng-class="{'has-error' : registrationForm.surname.$invalid && submitted}">
+                    <label for="surname" class="col-lg-2 control-label">Surname</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="surname" name="surname" placeholder="Surname" ng-model="surname" required>
+                        <p ng-show="registrationForm.surname.$invalid && submitted" class="help-block">Your surname is required.</p>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{'has-error' : registrationForm.email.$invalid && submitted}">
+                    <label for="email" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email" ng-model="email" required>
+                        <p ng-show="registrationForm.email.$invalid && submitted" class="help-block">Email required.</p>
+                    </div>
+                </div>
+                <div class="form-group" ng-class="{'has-error' : registrationForm.password.$invalid && submitted}">
+                    <label for="password" class="col-lg-2 control-label">Password</label>
+                    <div class="col-lg-10">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" ng-model="password" required>
+                        <p ng-show="registrationForm.password.$invalid && submitted" class="help-block">Password required.</p>
+                    </div>
+                </div>                  
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button class="btn btn-default">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>

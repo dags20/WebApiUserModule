@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.UserModule", "WebApi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.UserModule.Test", "WebApi.UserModule.Test\WebApi.UserModule.Test.csproj", "{354F68D8-4834-4238-A579-D44A7368A749}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiUserModueloWeb", "WebApiUserModueloWeb\WebApiUserModueloWeb.csproj", "{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiUserModuleWeb", "WebApiUserModuleWeb\WebApiUserModuleWeb.csproj", "{BC6D1812-9E2E-4EAE-AA9A-D9B48CC9E1E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

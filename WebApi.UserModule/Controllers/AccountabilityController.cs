@@ -38,11 +38,10 @@ namespace WebApi.UserModule.Controllers
             
             return "There was a problem creating the account.";
         }
-
-        [Authorize]
+        
         public string GetAllUser()
         {
-            var UserName = User.Identity.Name;
+            var UserName = "Diego Test";
 
             return UserName;
         }
