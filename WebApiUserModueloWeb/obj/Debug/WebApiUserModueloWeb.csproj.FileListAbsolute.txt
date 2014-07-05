@@ -1,5 +1,0 @@
-C:\Users\Diego\git\WebApiUserModule\WebApiUserModueloWeb\bin\WebApiUserModueloWeb.dll
-C:\Users\Diego\git\WebApiUserModule\WebApiUserModueloWeb\bin\WebApiUserModueloWeb.pdb
-C:\Users\Diego\git\WebApiUserModule\WebApiUserModueloWeb\obj\Debug\WebApiUserModueloWeb.dll
-C:\Users\Diego\git\WebApiUserModule\WebApiUserModueloWeb\obj\Debug\WebApiUserModueloWeb.pdb
-C:\Users\Diego\git\WebApiUserModule\WebApiUserModueloWeb\obj\Debug\WebApiUserModueloWeb.csprojResolveAssemblyReference.cache
