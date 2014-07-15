@@ -14,17 +14,32 @@ userManagementCtrl.controller('login', ['$scope', function ($scope) {
 }]);
 
 userManagementCtrl.controller('register', ['$scope', '$http', function ($scope, $http) {
+
+   
+
     $scope.submitForm = function (isValid) {
         $scope.submitted = true;
+
+        var formdata = {
+            'Name' : $scope.name,
+            'Password': $scope.password
+        };
+
         if (isValid) {
-            alert("It is valid");
+
+            //AngularJS performs an OPTIONS HTTP request for a cross-origin resource
+
+            $http.post( "http://localhost:18310/api/Accountability/RegisterUser/",
+                {'Name': "NAme", "Surname" : "Surname"}
+            )
+                .success(function (data) {                    
+                    alert("sucess");
+                })
+                .error(function () {
+                    alert("error");
+                });
         } 
-    }
-
-    //$http.get('http://localhost:18310/api/Accountability/GetAllUser').success(function (data) {
-    //    $scope.controller = data;
-    //});
-
+    }    
 }]);
 
 userManagementCtrl.controller('default', ['$scope', function ($scope) {
