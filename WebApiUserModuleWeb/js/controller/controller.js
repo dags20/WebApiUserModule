@@ -13,10 +13,7 @@ userManagementCtrl.controller('login', ['$scope', function ($scope) {
     }
 }]);
 
-userManagementCtrl.controller('register', ['$scope', '$http', function ($scope, $http) {
-
-   
-
+userManagementCtrl.controller('register', ['$scope', '$http', function ($scope, $http) {   
     $scope.submitForm = function (isValid) {
         $scope.submitted = true;
 
@@ -25,19 +22,14 @@ userManagementCtrl.controller('register', ['$scope', '$http', function ($scope, 
             'Password': $scope.password
         };
 
-        if (isValid) {
-
-            //AngularJS performs an OPTIONS HTTP request for a cross-origin resource
-
+        if (isValid) {            
             $http.post( "http://localhost:18310/api/Accountability/RegisterUser/",
-                {'Name': "NAme", "Surname" : "Surname"}
-            )
-                .success(function (data) {                    
-                    alert("sucess");
-                })
-                .error(function () {
-                    alert("error");
-                });
+                formdata
+            ).success(function (data) {                    
+                alert("sucess");
+            }).error(function () {
+                alert("error");
+            });
         } 
     }    
 }]);

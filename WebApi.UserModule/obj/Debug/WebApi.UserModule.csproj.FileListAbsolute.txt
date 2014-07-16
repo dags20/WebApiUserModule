@@ -64,3 +64,6 @@ C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Web.Http.WebHos
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.csprojResolveAssemblyReference.cache
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.dll
 C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\obj\Debug\WebApi.UserModule.pdb
+C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Web.Cors.dll
+C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Web.Http.Cors.dll
+C:\Users\Diego\git\WebApiUserModule\WebApi.UserModule\bin\System.Web.Http.Cors.xml
