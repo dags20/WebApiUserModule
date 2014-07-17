@@ -8,6 +8,8 @@ WebApi.UserModule.suo
 WebApi.UserModule.v11.suo
 WebApi.UserModule.v12.suo
 
+WebApi.UserModule/hibernate.cfg.xml
+
 packages
 
 To_be_deleted/
