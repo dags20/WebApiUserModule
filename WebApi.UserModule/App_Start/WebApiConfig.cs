@@ -12,7 +12,7 @@ namespace WebApi.UserModule
         {
             //TODO: This should only give access to my api. for security reasons
             // Enable CORS
-            config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
+            //config.EnableCors(new EnableCorsAttribute("http://localhost:36262", "*", "*"));
 
             // Web API routes
             config.MapHttpAttributeRoutes();

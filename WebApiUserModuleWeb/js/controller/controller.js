@@ -4,11 +4,20 @@
 
 var userManagementCtrl = angular.module('userManagementCtrl', []);
 
-userManagementCtrl.controller('login', ['$scope', function ($scope) {
+userManagementCtrl.controller('login', ['$scope', '$http', function ($scope, $http) {
     $scope.submitForm = function (isValid) {
         $scope.submitted = true;
-        if (isValid) {
-            alert("It is valid");
+        if (isValid) {           
+            $http({
+                method: "POST",
+                url: "http://localhost:18310/Token",
+                data: "grant_type=password&username=" + $scope.name + "&password=" + $scope.password,
+                headers: { "Content-Type": "application/x-www-form-urlencoded" }
+            }).success(function (data) {
+                alert("sucess");
+            }).error(function () {
+                alert("error");
+            });            
         }
     }
 }]);

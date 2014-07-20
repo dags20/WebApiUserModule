@@ -1,5 +1,6 @@
 ﻿using Microsoft.Owin;
 using Owin;
+using Microsoft.Owin.Cors;
 
 [assembly: OwinStartupAttribute(typeof(WebApi.UserModule.Startup))]
 
@@ -9,7 +10,9 @@ namespace WebApi.UserModule
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);            
+            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
+
+            ConfigureAuth(app);
         }
 
         //private static void ConfigureData()
